@@ -1,0 +1,28 @@
+{
+  "name": "migrate-theme/core",
+  "version": "1.0.0",
+  "type": "wordpress-plugin",
+  "description": "This plugin was created to copy the current theme to a new one.",
+  "keywords": [
+    "wordpress"
+  ],
+  "homepage": "https://github.com/SerhiiMazurBeetroot/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SerhiiMazurBeetroot",
+      "email": "mazur.s.n@gmail.com",
+      "homepage": "https://github.com/SerhiiMazurBeetroot/",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "lock": false,
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "MigrateTheme\\": "src/"
+    }
+  }
+}
